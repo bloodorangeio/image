@@ -1,8 +1,8 @@
 package copy
 
 import (
-	"github.com/containers/image/v5/signature"
-	"github.com/containers/image/v5/transports"
+	"github.com/containers/image/signature"
+	"github.com/containers/image/transports"
 	"github.com/pkg/errors"
 )
 

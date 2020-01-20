@@ -3,7 +3,7 @@ package copy
 import (
 	"strings"
 
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/types"
 )
 
 // isOciEncrypted returns a bool indicating if a mediatype is encrypted

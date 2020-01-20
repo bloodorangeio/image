@@ -5,8 +5,8 @@ package signature
 import (
 	"fmt"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/manifest"
+	"github.com/containers/image/docker/reference"
+	"github.com/containers/image/manifest"
 	"github.com/opencontainers/go-digest"
 )
 

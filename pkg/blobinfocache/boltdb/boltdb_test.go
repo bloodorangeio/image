@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/containers/image/v5/pkg/blobinfocache/internal/test"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/pkg/blobinfocache/internal/test"
+	"github.com/containers/image/types"
 	"github.com/stretchr/testify/require"
 )
 

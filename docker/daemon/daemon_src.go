@@ -3,8 +3,8 @@ package daemon
 import (
 	"context"
 
-	"github.com/containers/image/v5/docker/tarfile"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/docker/tarfile"
+	"github.com/containers/image/types"
 	"github.com/pkg/errors"
 )
 

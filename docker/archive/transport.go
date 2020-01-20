@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/containers/image/v5/docker/reference"
-	ctrImage "github.com/containers/image/v5/image"
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/docker/reference"
+	ctrImage "github.com/containers/image/image"
+	"github.com/containers/image/transports"
+	"github.com/containers/image/types"
 	"github.com/pkg/errors"
 )
 

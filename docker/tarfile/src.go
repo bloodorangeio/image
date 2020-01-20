@@ -11,10 +11,10 @@ import (
 	"path"
 	"sync"
 
-	"github.com/containers/image/v5/internal/tmpdir"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/pkg/compression"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/internal/tmpdir"
+	"github.com/containers/image/manifest"
+	"github.com/containers/image/pkg/compression"
+	"github.com/containers/image/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

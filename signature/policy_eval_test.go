@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/containers/image/v5/docker"
-	"github.com/containers/image/v5/docker/policyconfiguration"
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/internal/testing/mocks"
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/docker"
+	"github.com/containers/image/docker/policyconfiguration"
+	"github.com/containers/image/docker/reference"
+	"github.com/containers/image/internal/testing/mocks"
+	"github.com/containers/image/transports"
+	"github.com/containers/image/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

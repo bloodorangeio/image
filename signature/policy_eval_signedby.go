@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/manifest"
+	"github.com/containers/image/types"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

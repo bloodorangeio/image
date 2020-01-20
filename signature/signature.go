@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/containers/image/v5/version"
+	"github.com/containers/image/version"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

@@ -4,7 +4,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/types"
 )
 
 // unixTempDirForBigFiles is the directory path to store big files on non Windows systems.

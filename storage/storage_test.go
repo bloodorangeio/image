@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	imanifest "github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/pkg/blobinfocache/memory"
-	"github.com/containers/image/v5/types"
+	imanifest "github.com/containers/image/manifest"
+	"github.com/containers/image/pkg/blobinfocache/memory"
+	"github.com/containers/image/types"
 	"github.com/containers/storage"
 	"github.com/containers/storage/pkg/archive"
 	"github.com/containers/storage/pkg/idtools"

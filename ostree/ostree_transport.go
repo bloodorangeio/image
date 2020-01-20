@@ -11,11 +11,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/containers/image/v5/directory/explicitfilepath"
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/image"
-	"github.com/containers/image/v5/transports"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/directory/explicitfilepath"
+	"github.com/containers/image/docker/reference"
+	"github.com/containers/image/image"
+	"github.com/containers/image/transports"
+	"github.com/containers/image/types"
 	"github.com/pkg/errors"
 )
 

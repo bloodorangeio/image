@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/containers/image/v5/docker/reference"
-	"github.com/containers/image/v5/manifest"
-	"github.com/containers/image/v5/types"
+	"github.com/containers/image/docker/reference"
+	"github.com/containers/image/manifest"
+	"github.com/containers/image/types"
 	"github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
